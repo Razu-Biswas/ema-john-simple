@@ -1,0 +1,11 @@
+.cart-container{
+    /* margin-left: 40px; */
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.review-button{
+    border-radius: 5px;
+    background-color: rgba(209, 75, 75, 0.924);
+    border: 1px solid gray
+}
