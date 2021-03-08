@@ -56,7 +56,9 @@ const Review = () => {
                         thankyou
                     }
                 </div>
-                <div className="cart-container">
+
+            </div>
+            <div className="cart-container">
                     <Cart cart={cart}>
                         <button onClick={handlePlaceOrder}
                             className="review-button"
@@ -66,7 +68,6 @@ const Review = () => {
                             </button>
                     </Cart>
                 </div>
-            </div>
         </div>
     );
 };
